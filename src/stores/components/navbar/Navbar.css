@@ -1,0 +1,101 @@
+
+.title span{
+    color: red;
+    font-size: 45px;
+}
+.search{
+    width: 50%;
+    height: 30px;
+    background: red;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-left: 40px;
+    
+    
+}
+.search input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    text-indent: 10px;
+}
+.Fake{
+    flex: 1;
+}
+.user-box{
+    width: 50px;
+    height: 50px;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 25px;
+
+}
+.signing-icons{
+    font-size: 25px;
+}
+.user-box h6{
+    margin-top: 5px;
+}
+.cart-box{
+    width: 50px;
+    height: 80px;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+.cart-icons{
+    font-size: 35px;
+}
+.cart-box span{
+    color: red;
+}
+
+.subMenu ul li {
+    list-style: none;
+    margin: 26px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.subMenu ul li:hover {
+    border-bottom: 2px solid white;
+    color:#fff;
+}
+
+.subMenu {
+    background-color: black;
+    color:#fff;
+    height: 50px;
+}
+
+.subMenu ul {
+    display: inline-flex;
+    color: #fff;
+}
+
+.navbar-section{
+    z-index: 999;
+}
+.navbar-section {
+    position: sticky;
+    top: 0;
+}
+
+.navSection {
+    display: flex;
+    width: 100%;
+    min-width: 100vw;
+    height: 80px;
+    background-color: black;
+    color: white;
+    
+    align-items: center;
+    padding: 0px 50px;
+}
